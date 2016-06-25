@@ -1,0 +1,28 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomardavid/react-electron-player.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Omar Garcia",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/nomardavid/react-electron-player/issues"
+  },
+  "homepage": "https://github.com/nomardavid/react-electron-player#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
