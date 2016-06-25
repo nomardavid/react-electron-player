@@ -1,28 +1,36 @@
 {
-  "name": "electron-quick-start",
+  "name": "piel-canela-player",
+  "productName": "Omar&&Elifer Player",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A demo player for my honey",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron main.js",
+    "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nomardavid/react-electron-player.git"
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
   "author": "Omar Garcia",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nomardavid/react-electron-player/issues"
   },
   "homepage": "https://github.com/nomardavid/react-electron-player#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "axios": "^0.12.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "classnames": "^2.2.5",
+    "electron-prebuilt": "^1.2.0",
+    "electron-reload": "^1.0.0",
+    "jquery": "^3.0.0",
+    "react": "^15.1.0",
+    "react-autocomplete": "^1.0.0",
+    "react-dom": "^15.1.0",
+    "react-sound": "^0.5.0",
+    "soundmanager2": "^2.97.20150601-a"
   }
 }
